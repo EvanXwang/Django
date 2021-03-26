@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+
+
+
+
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	zoomEnabled: true,
+	theme: "dark2",
+	title:{
+		text: "當月飲食記錄報告"
+	},
+	axisX:{
+		title: "2021-2月",
+		valueFormatString: "####",
+		interval: 2
+	},
+	axisY:{
+		logarithmic: true, //change it to false
+		title: "單位",
+		prefix: "$",
+		titleFontColor: "#6D78AD",
+		lineColor: "#6D78AD",
+		gridThickness: 0,
+		lineThickness: 1,
+		labelFormatter: addSymbols
+	},
+	axisY2:{
+		title: "Profit in USD",
+		prefix: "$",
+		titleFontColor: "#51CDA0",
+		logarithmic: false, //change it to true
+		lineColor: "#51CDA0",
+		gridThickness: 0,
+		lineThickness: 1,
+		labelFormatter: addSymbols
+	},
+	legend:{
+		verticalAlign: "top",
+		fontSize: 16,
+		dockInsidePlotArea: true
+	},
+	data: [{
+		type: "line",
+		xValueFormatString: "####",
+		yValueFormatString: "$#,##0.##",
+		showInLegend: true,
+		name: "熱量",
+		dataPoints: [
+			{ x: 1, y: 2900 },
+			{ x: 2, y: 3300 },
+			{ x: 3, y: 3200 },
+			{ x: 4, y: 3250 },
+			{ x: 5, y: 2800 },
+			{ x: 6, y: 2850 },
+			{ x: 7, y: 3000 },
+			{ x: 8, y: 3500 },
+			{ x: 9, y: 3400 },
+			{ x: 10, y: 3300 },
+			{ x: 11, y: 3200 },
+			{ x: 12, y: 3300 },
+			{ x: 13, y: 2400 },
+			{ x: 14, y: 3200 },
+			{ x: 15, y: 2900 },
+			{ x: 16, y: 2800 },
+			{ x: 17, y: 2689 },
+			{ x: 18, y: 3000 },
+			{ x: 19, y: 3233 },
+			{ x: 20, y: 2345 },
+			{ x: 21, y: 2897 },
+			{ x: 22, y: 4300 },
+			{ x: 23, y: 3000 },
+			{ x: 24, y: 2900 },
+			{ x: 25, y: 3000 },
+			{ x: 26, y: 2700 },
+			{ x: 27, y: 2800 },
+			{ x: 28, y: 3000 },
+			{ x: 29, y: 3200 },
+			{ x: 30, y: 3100 }
+		]
+	},
+	{
+		type: "line",
+		xValueFormatString: "####",
+		yValueFormatString: "$#,##0.##",
+		showInLegend: true,
+		name: "脂質",
+		dataPoints: [
+			{ x: 1, y: 80 },
+			{ x: 2, y: 20 },
+			{ x: 3, y: 40},
+			{ x: 4, y: 60 },
+			{ x: 5, y: 90 },
+			{ x: 6, y: 140 },
+			{ x: 7, y: 20},
+			{ x: 8, y: 40 },
+			{ x: 9, y: 60 },
+			{ x: 10, y: 80 },
+			{ x: 11, y: 90 },
+			{ x: 12, y: 100 },
+			{ x: 13, y: 130 },
+			{ x: 14, y: 90 },
+			{ x: 15, y: 60 },
+			{ x: 16, y: 80 },
+			{ x: 17, y: 90 },
+			{ x: 18, y: 110 },
+			{ x: 19, y: 125 },
+			{ x: 20, y: 130 },
+			{ x: 21, y: 120 },
+			{ x: 22, y: 110 },
+			{ x: 23, y: 125 },
+			{ x: 24, y: 135 },
+			{ x: 25, y: 115 },
+			{ x: 26, y: 151 },
+			{ x: 27, y: 125 },
+			{ x: 28, y: 115 },
+			{ x: 29, y: 135 },
+			{ x: 30, y: 155 }
+		]
+	},
+	{
+		type: "line",
+		xValueFormatString: "####",
+		yValueFormatString: "$#,##0.##",
+		showInLegend: true,
+		name: "醣類",
+		dataPoints: [
+			{ x: 1, y: 380 },
+			{ x: 2, y: 320 },
+			{ x: 3, y: 340},
+			{ x: 4, y: 360 },
+			{ x: 5, y: 390 },
+			{ x: 6, y: 340 },
+			{ x: 7, y: 320},
+			{ x: 8, y: 340 },
+			{ x: 9, y: 360 },
+			{ x: 10, y: 380 },
+			{ x: 11, y: 390 },
+			{ x: 12, y: 300 },
+			{ x: 13, y: 330 },
+			{ x: 14, y: 390 },
+			{ x: 15, y: 360 },
+			{ x: 16, y: 380 },
+			{ x: 17, y: 390 },
+			{ x: 18, y: 330 },
+			{ x: 19, y: 325 },
+			{ x: 20, y: 330 },
+			{ x: 21, y: 320 },
+			{ x: 22, y: 310 },
+			{ x: 23, y: 315 },
+			{ x: 24, y: 345 },
+			{ x: 25, y: 415 },
+			{ x: 26, y: 315 },
+			{ x: 27, y: 215 },
+			{ x: 28, y: 315 },
+			{ x: 29, y: 415 },
+			{ x: 30, y: 315 }
+		]
+	},
+	{
+		type: "line",
+		xValueFormatString: "####",
+		yValueFormatString: "$#,##0.##",
+		showInLegend: true,
+		name: "蛋白質",
+		dataPoints: [
+			{ x: 1, y: 180 },
+			{ x: 2, y: 110 },
+			{ x: 3, y: 140},
+			{ x: 4, y: 160 },
+			{ x: 5, y: 30 },
+			{ x: 6, y: 120 },
+			{ x: 7, y: 60},
+			{ x: 8, y: 140 },
+			{ x: 9, y: 110 },
+			{ x: 10, y: 280 },
+			{ x: 11, y: 290 },
+			{ x: 12, y: 300 },
+			{ x: 13, y: 130 },
+			{ x: 14, y: 190 },
+			{ x: 15, y: 160 },
+			{ x: 16, y: 180 },
+			{ x: 17, y: 90 },
+			{ x: 18, y: 130 },
+			{ x: 19, y: 251 },
+			{ x: 20, y: 230 },
+			{ x: 21, y: 170 },
+			{ x: 22, y: 170 },
+			{ x: 23, y: 155 },
+			{ x: 24, y: 115 },
+			{ x: 25, y: 115 },
+			{ x: 26, y: 215 },
+			{ x: 27, y: 115 },
+			{ x: 28, y: 125 },
+			{ x: 29, y: 135 },
+			{ x: 30, y: 315 }
+		]
+	}
+	]
+});
+chart.render();
+
+function addSymbols(e){
+	var suffixes = ["", "K", "M", "B"];
+
+	var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+	if(order > suffixes.length - 1)
+		order = suffixes.length - 1;
+
+	var suffix = suffixes[order];
+	return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+}
+
+}
+</script>
+</head>
+<body>
+
+
+
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>

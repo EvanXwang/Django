@@ -1,0 +1,125 @@
+<!--基本資料輸入頁-->
+
+<!DOCTYPE html>
+<div style="background-color:#D4D4D4;">
+<p lang = "zh-tw">
+ <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>健康生活管家</title>
+        <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+        <style type="text/css">
+            footer {background:#789831; color:#FFFDFC; text-align:center}
+            form {display:block; clear:both; padding:5px 5px;background:#FFFDFC; color:#789831}
+            body {display:block; clear:both; padding:3px 5px;background:#FFFDFC; color:#789831}
+            header {display:block; clear:both; padding:3px 3px; background:#E47B11; color:#FFFDFC; text-align:center}
+
+        </style>
+
+    </head>
+<script>
+
+function initializeApp(data) {
+    //顯示UserId
+}
+
+$(document).ready(function () {
+    liff.init(function (data) {  //初始化LIFF
+        initializeApp(data);
+        liff.getProfile()
+        .then(function (profile) {
+            $("#userid").val(profile.userId);
+            $("#name").val(profile.displayName);
+            $("#url").val(profile.pictureUrl);
+        })
+        .catch((err) => {
+        console.log('error', err);
+        });
+    });
+});
+</script>
+<header>
+        <h6><b>感謝您將健康生活管家加入好友</b></h6>
+         <h6><b>請先填寫基本資料。</b></h6>
+
+</header>
+
+
+<body>
+
+    <form action="" method="post" name="profile">
+      <!--profile:指定表單名稱，此名稱不顯示，為後端處理可用-->
+            <p>
+      {% csrf_token %}
+                <span><b>UID</b></span>
+                <input type="text" name="uid" id="userid"  required />
+            </p>
+
+            <p>
+
+                <span><b>暱稱</b></span>
+                <input type="text" name="name" id="name" required />
+            </p>
+
+            <p>
+
+                <span><b>身高</b></span>
+                <input type="number" name="height" required />
+            </p>
+
+            <p>
+
+                <span><b>體重</b></span>
+                <input type="number" name="weight" required />
+            </p>
+
+            <p>
+
+                <span><b>年齡</b></span>
+                <input type="number" name="age" required />
+            </p>
+
+            <p>
+
+                <span><b>性別</b></span>
+                <input type="radio" name="sex" value="male" checked >男性
+                <input type="radio" name="sex" value="male">女性
+            </p>
+
+            <p>
+
+                <span><b>日常活動指數</b></span>
+                <select name="ac">
+                　<option value="1.2">低活動量(久坐辦公室、無運動、臥床)</option>
+                　<option value="1.375">輕度活動(走動性工作、非高強度運動一週1~3天)</option>
+                　<option value="1.55">中度活動(輕度勞力工作，非高強度運動一週3~5天)</option>
+                　<option value="1.725">高度活動(重度勞力工作，非高強度運動一週6~7天)</option>
+                  <option value="1.9">極端活動 (艱困的訓練/重度勞力工作，一天訓練2次以上)</option>
+                </select>
+
+            </p>
+
+            <p>
+
+                <span><b>飲食目標</b></span>
+                <input type="radio" name="sc" value="1" checked>一般
+                <input type="radio" name="sc" value="1.2">增肌
+                <input type="radio" name="sc" value="0.8">減脂
+            </p>
+
+
+      <input type="submit" value="填寫完成">
+
+    </form>
+
+    <footer>
+        <p><small>健康生活管家 &#169;Copyright 2021</small></p>
+    </footer>
+</body>
+
+</html>
+    </div>

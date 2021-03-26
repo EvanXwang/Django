@@ -1,0 +1,396 @@
+NO,EN_NAME,TC_NAME,MEAL,CAT,CAL,PR,FAT,CARB
+1,pan-fried bun,ÂA¦×¤ô·Î¥],breakfast,¥D­¹,274,10.3,125,30
+2,pan-fried bun,°ªÄRµæ¤ô·Î¥],breakfast,¥D­¹,227,4.6,7.5,34
+3,steamed bread,ÄCÀY,breakfast,¥D­¹,392,11.2,Unknown,84
+4,xiao-long-bao,¤pÅ¢¥],breakfast,¥D­¹,520,22,20,60
+5,meat bao,¦×¥],breakfast,¥D­¹,268,9.6,11.5,30
+6,vegetarian bao,µæ¥],breakfast,¥D­¹,198,4.5,5,32.5
+7,egg crepe,³J»æ,breakfast,¥D­¹,283,11,12.5,30
+8,sitcky-rice roll,¶ºÄ{,breakfast,¥D­¹,390,11.7,10,61
+9,hamburger,º~³ù,breakfast,¥D­¹,483,22.9,22,45.5
+10,radish cake,ÅÚ½³¿|,breakfast,¥D­¹,325,8,5,60
+11,sandwich,¤T©úªv,breakfast,¥D­¹,312,13.7,12.1,36
+12,boiled dumpling,¤ô»å(°ªÄRµæ½Þ¦×),"lunch, dinner",¥D­¹,489,21.4,20,53
+13,fried dumpling,Áç¶K,"lunch, dinner",¥D­¹,498,19.7,24.5,47
+14,wonton,À_¶»,"lunch, dinner",¥D­¹,314,17.4,15,25.5
+15,sauced noodles,°®ÄÑ,"lunch, dinner",¥D­¹,403,15.1,10,60.5
+16,noodles with sesame and peanut sauce,³ÂÂæÄÑ,"lunch, dinner",¥D­¹,463,8.1,20,60.5
+17,beef noodle soup,¤û¦×ÄÑ,"lunch, dinner",¥D­¹,478,22.1,13.5,60.5
+18,blanched green vegetables,¿S«Cµæ,"lunch, dinner",°tµæ,83,1.5,5,7.5
+19,braised pork on rice,º±¦×¶º,"lunch, dinner",¥D­¹,635,17.2,18,97.5
+20,noodle in pork thick soup,¦×Ã¼ÄÑ,"lunch, dinner",¥D­¹,378,16.9,12.5,47
+21,cold noodles,²DÄÑ,"lunch, dinner",¥D­¹,395,6.2,20,46
+22,Inarizushi,¨§¥Ö¹Ø¥q(3­Ó),"lunch, dinner",¥D­¹,330,13,45,45
+23,seaweed Sushi,®ü­a¹Ø¥q,"lunch, dinner",¥D­¹,403,18.9,7.5,62
+24,zongzi,¦×ºê,"lunch, dinner",¥D­¹,445,15,15,60
+25,tianbula,²¢¤£»¶,"lunch, dinner",¥D­¹,455,20.2,20,46
+26,taiwanese meatballs,¦×¶ê,"lunch, dinner",¥D­¹,418,16.5,11,60.5
+27,spaghetti bolognese,¦×Âæ¸q¤j§QÄÑ,"lunch, dinner",¥D­¹,480,13.6,12.5,75.5
+28,pineapple cake,»ñ±ù¶p,other,²¢ÂI,166,2,7.5,22
+29,wheel pies (red bean),¬õ¨§¨®½ü»æ,other,²¢ÂI,226,5,2.5,44.5
+30,wheel pies (cream),¥¤ªo¨®½ü»æ,other,²¢ÂI,143,2,5,22
+31,honey cake kasutera,¸Á»e³J¿|,other,²¢ÂI,164,3.1,9,17.5
+32,cheese cake,°_¥q³J¿|(¤@¶ô),other,²¢ÂI,323,8.5,21.5,25
+33,deep fried chicken cutlets,¬µÂû±Æ,"lunch, dinner",¥D­¹,460,30,30,15
+34,flaky scallion pancake,½µ§ì»æ¥[³J,"lunch, dinner",¥D­¹,410,14,15,52.5
+35,spring roll,¬K±²,"lunch, dinner",¥D­¹,596,22.5,28,66.4
+36,salty rice pudding,¸Jã_,"lunch, dinner",¥D­¹,232,6.8,4.6,41.2
+37,stinky tofu,¯ä¨§»G,"lunch, dinner",°tµæ,353,24.6,24.1,10.1
+38,gua bao,¤Â¥],"lunch, dinner",¥D­¹,195,13.8,4.2,26.5
+39,oyster omelet,³H¥J·Î,"lunch, dinner",¥D­¹,444,13.9,21.8,49.7
+40,sausage with sticky rice,¤j¸z¥]¤p¸z,"lunch, dinner",¥D­¹,435,17.3,26.6,32.6
+41,baked pepper buns,­J´Ô»æ,"lunch, dinner",¥D­¹,386,12.9,25.4,25.4
+42,chitterlings,¯»¸z,"lunch, dinner",¥D­¹,395,11.6,9,67.4
+43,fried cuttlefish ball,ªáªK¤Y(4­Ó),"lunch, dinner",°tµæ,378,21,24,19.4
+44,hakka rice cake(red bean),¬õ¨§¯ó¥Jã_,other,²¢ÂI,408,6.5,3.7,86.7
+45,dorayaki,»ÉÆr¿N,other,²¢ÂI,224,4.7,7.4,34.9
+46,suncake,¤Ó¶§»æ,other,²¢ÂI,265,3,14.8,29.9
+47,sachima,¨FµXº¿,other,²¢ÂI,246,4,6.3,44
+48,honey sweet potatoes,¿}µN¦a¥Ê,other,²¢ÂI,335,2.2,0.7,78.9
+49,cooked white shrimp,¥Õ½¼,"lunch, dinner",°tµæ,35,7.7,0.4,0
+50,boiled egg,¤ôµN³J,"lunch, dinner",°tµæ,74,6.9,4.8,1
+51,scrambled egg,ª£³J,"lunch, dinner",°tµæ,119,6.9,9.8,1
+52,orange,¬h¤B,other,¤ôªG,56,1,0.1,14.3
+53,pomelo,¤å¥¹,other,¤ôªG,95,1.8,0.3,24.5
+54,apple,Ä«ªG,other,¤ôªG,121,0.2,0.4,32.9
+55,cantaloupe,«¢±K¥Ê,other,¤ôªG,32,0.8,0.1,7.7
+56,papaya,¤ì¥Ê,other,¤ôªG,35,0.5,0.2,8.6
+57,watermelon,¦è¥Ê,other,¤ôªG,67,1.1,0.2,17.1
+58,mango,·R¤å¨~ªG,other,¤ôªG,166,1.6,0.3,43.9
+59,guava,ªÝ¼Ö,other,¤ôªG,21,0.3,0.1,5.5
+60,peach,¯Ü®ç,other,¤ôªG,85,1.3,0.2,21.7
+61,plum,§õ¤l,other,¤ôªG,41,0.6,0.9,8.7
+62,persimmon,³n¬U,other,¤ôªG,109,0.7,0.4,28.9
+63,banana,­»¿¼,other,¤ôªG,77,1,0.2,20.3
+64,grape,¸²µå,other,¤ôªG,75,0.5,0.1,20
+65,litchi,¯ïªK,other,¤ôªG,13,0.2,0,3.4
+66,dragon fruit,¤õÀsªG,other,¤ôªG,26,0.7,0.2,6.1
+67,kiwi fruit(yellow),©_²§ªG(¶À),other,¤ôªG,45,0.9,0.1,11.5
+68,kiwi fruit(green),©_²§ªG(ºñ),other,¤ôªG,45,0.9,0.1,11.5
+69,vermicelli with chitterling,¤j¸zÄÑ½u,"lunch, dinner",¥D­¹,416,10,17.5,55.8
+70,vermicelli with angelica duck,·íÂkÀnÄÑ½u,"lunch, dinner",¥D­¹,548,28.4,21.9,56.8
+71,mackerek soup,¤gäß³½Ã¼,"lunch, dinner",¥D­¹,349,12.5,17.9,35.8
+72,hot-and-sour soup,»Ä»¶´ö,"lunch, dinner",´ö,130,7.1,6.5,10
+73,pork ball soup,°^¤Y´ö,"lunch, dinner",´ö,98,7,7.5,Unknown
+74,miso soup,¨ýäø´ö,"lunch, dinner",´ö,18,1.5,2,0.5
+75,ice with tapioca balls,¯»¶ê¦B,other,²¢ÂI,237,0,0,59.8
+76,corn soup,¥É¦Ì¿@´ö,"lunch, dinner",´ö,150,3,5,22.5
+77,tofu pudding,ªá¥Í¨§ªá,other,²¢ÂI,245,7,15,20
+78,nabeyaki egg noodles,Áç¿N·NÄÑ,"lunch, dinner",¥D­¹,607,23.3,28.6,66.3
+79,mung bean soup,ºñ¨§´ö,other,²¢ÂI,254,12.6,0.5,51.5
+80,tangyuan,ÄÐ´ö¶ê,"lunch, dinner",´ö,302,13.1,9.2,40.6
+81,sweet tangyuan,²¢´ö¶ê,other,²¢ÂI,423,9.3,3.2,88.5
+82,steamed egg,»]³J,"lunch, dinner",°tµæ,81,6.9,5.7,0.2
+83,rice,¥Õ¦Ì¶º,"lunch, dinner",¥D­¹,202,3,0.4,44.5
+84,brown rice,ÁW¦Ì¶º,"lunch, dinner",¥D­¹,198,3.4,1.2,42.7
+85,"
+miscellaneous rice",Âø½\¶º,"lunch, dinner",¥D­¹,190,3.9,7,40.4
+86,plain porridge,¥Õµ°,"lunch, dinner",¥D­¹,161,2.7,0.4,34.9
+87,millet rice,¤Q¤»½\¶º,"lunch, dinner",¥D­¹,285,5.6,1.1,61.1
+88,brown rice congee,ÁW¦Ìµ°,"lunch, dinner",¥D­¹,107,1.8,0.7,23.1
+89,hainanese chicken rice,®ü«nÂû¶º,"lunch, dinner",¥D­¹,586,29.5,19,68.6
+90,oyakodon,¿Ë¤lÉd,"lunch, dinner",¥D­¹,679,24.3,15,103.7
+91,gyudon,¤ûÉd,"lunch, dinner",¥D­¹,735,22.2,19.7,104.4
+92,unadon,ÅÁ³½¶º,"lunch, dinner",¥D­¹,773,31.4,22.9,103.8
+93,katsudon,½Þ±ÆÉd,"lunch, dinner",¥D­¹,902,30.8,34.3,110.1
+94,fried chicken donburi,Âû±ÆÉd,"lunch, dinner",¥D­¹,880,30.3,29.1,112.5
+95,bibimbap,Áú¦¡©Õ¶º,"lunch, dinner",¥D­¹,759,17.5,28,102.1
+96,teriyaki chicken,·Ó¿NÂû¶º,"lunch, dinner",¥D­¹,738,29,21.7,98.8
+97,pork rice,½Þ¦×¶º,"lunch, dinner",¥D­¹,873,19.2,40.9,98.4
+98,kimbap,Áú¦¡¶º±²,"lunch, dinner",¥D­¹,445,13.9,13,66.1
+99,chicken curry,Âû¦×©@­ù,"lunch, dinner",¥D­¹,650,20.2,21.8,88
+100,beef curry,¤û¦×©@­ù,"lunch, dinner",¥D­¹,709,15.5,30.2,88.2
+101,seafood curry,®üÂA©@­ù,"lunch, dinner",¥D­¹,566,19.2,12,92.1
+102,fried chicken curry,Âû±Æ©@­ù,"lunch, dinner",¥D­¹,1049,30.4,52.9,104.6
+103,chicken tomato curry,Âû¦×µf­X©@­ù,"lunch, dinner",¥D­¹,658,17,24,89
+104,fried rice,ª£¶º,"lunch, dinner",¥D­¹,678,18.3,30.1,78.3
+105,omurice,³J¥]¶º,"lunch, dinner",¥D­¹,710,23.6,30.5,78.5
+106,fried rice(brown rice),ª£¶º¡]¥È¦Ì¡^,"lunch, dinner",¥D­¹,561,18.9,19.5,75.3
+107,shrimp fried rice,½¼¤¯ª£¶º,"lunch, dinner",¥D­¹,678,18.3,30.1,78.3
+108,kimchi fried rice,ªwµæª£¶º,"lunch, dinner",¥D­¹,577,13.1,20,81.5
+109,spicy korean rice cake,»¶ª£¦~¿|,"lunch, dinner",¥D­¹,417,5.1,18.9,4.7
+110,over egg,²ü¥]³J,"lunch, dinner",°tµæ,96,5.5,6.8,2.2
+111,quail egg,ÄOÄL³J,"lunch, dinner",°tµæ,15,1.1,1.1,0
+112,onsen tamago,·Å¬u³J,"lunch, dinner",°tµæ,83,6.6,5.7,0.2
+113,preserved duck egg,¥Ö³J,"lunch, dinner",°tµæ,118,7.5,9.1,0
+114,scrambled egg with chives,­´µæª£³J,"lunch, dinner",°tµæ,147,8.1,9.9,5.4
+115,chawanmushi,¯ù¸J»],"lunch, dinner",°tµæ,120,13.5,3.3,7.7
+116,natto,¯Ç¨§,"lunch, dinner",°tµæ,90,7.4,4.5,5.4
+117,chickpeas,¤ôµNÆN¼L¨§,"lunch, dinner",°tµæ,86,4.8,1.3,13.7
+118,tofu,¤ì´Ö¨§»G,"lunch, dinner",°tµæ,80,7,4.9,1.5
+119,cold bean curd,²D©Õ¨§»G,"lunch, dinner",°tµæ,68,6.2,3.6,2.4
+120,soft tofu,¹à¨§»G,"lunch, dinner",°tµæ,62,5.3,3.5,2
+121,mapo tofu,³Â±C¨§»G,"lunch, dinner",°tµæ,287,16,20.7,7.1
+122,tangerine,¾ï¤l,other,¤ôªG,29,0.4,0.1,7.7
+123,strawberry,¯ó²ù,other,¤ôªG,40,1.1,0.1,10
+124,cherry,Äå®ç,other,¤ôªG,29,0.5,0,7.5
+125,fig,µLªáªG,other,¤ôªG,28,0.3,0.1,7.3
+126,loquat,ªJªI,other,¤ôªG,11,0.1,0,3
+127,grapefruit,¸²µå¬c,other,¤ôªG,80,1.9,0.2,20.2
+128,shaddock,¬c¤l,other,¤ôªG,59,1.2,0.5,14.2
+129,durian,ºhåÑ,other,¤ôªG,113,1.96,2.81,23.04
+130,pear,±ù¤l,other,¤ôªG,110,0.8,0.3,28.8
+131,pineapple,»ñ±ù,other,¤ôªG,73,0.8,0.1,18.8
+132,raisin,¸²µå°®,other,²¢ÂI,36,0.3,0,9.6
+133,blueberry,ÂÅ²ù,other,¤ôªG,10,0.1,0,2.6
+134,dried fid,µLªáªG°®,other,²¢ÂI,15,0.2,0.1,3.8
+135,dried strawberry,¯ó²ù°®,other,²¢ÂI,45,0.1,0,12.4
+136,dried liwi,©_²§ªG°®,other,²¢ÂI,17,0.1,0,0
+137,dried mango,¨~ªG°®,other,²¢ÂI,32,0.3,0.1,8.5
+138,dried cranberry,½¯¶V²ù°®,other,²¢ÂI,33,0,0.1,8.5
+139,milk,¤û¥¤,breakfast,¶¼®Æ,127,6.3,7.2,9.1
+140,low fat milk,§C¯×¤û¥¤,breakfast,¶¼®Æ,83,6.8,1.8,9.9
+141,milk pudding,¤û¥¤¥¬¤B,other,²¢ÂI,109,3,7.3,7.7
+142,yogurt(sugar free),Àu®æ¡]µL¿}¡^,other,²¢ÂI,62,3.6,3,4.9
+143,yogurt,Àu®æ,other,²¢ÂI,67,4.3,0.2,11.9
+144,yogurt drink,Àu¹T¨Å,breakfast,¶¼®Æ,117,5.2,0.9,22
+145,yogurt with aloe,ÄªîPÀu®æ,other,²¢ÂI,47,3,0.1,8.4
+146,coffee milk,©@°Ø¤û¥¤,breakfast,¶¼®Æ,112,4.4,4,14.4
+147,fruit yogurt,¤ôªGÀu®æ,other,²¢ÂI,78,3.5,0.2,16.3
+148,mixed berry smoothie,ºî¦X²ùªG©õ,breakfast,¶¼®Æ,152,5.4,4.4,23.8
+149,honey yogurt,¸Á»eÀu®æ,other,²¢ÂI,123,3.7,3,21.3
+150,banana milk,­»¿¼¤û¥¤,breakfast,¶¼®Æ,161,5.3,5.8,22.9
+151,banana yogurt,­»¿¼Àu®æ,other,²¢ÂI,153,6.2,4.6,23.1
+152,soy milk,¨§¼ß,breakfast,¶¼®Æ,128,6.4,7.2,9.6
+153,black coffee,¶Â©@°Ø,breakfast,¶¼®Æ,7,0.4,0,1.3
+154,green tea,ºñ¯ù,breakfast,¶¼®Æ,3,0.3,0,0.3
+155,latte,®³ÅK,breakfast,¶¼®Æ,102,5,5.7,7.4
+156,lemon black tea,ÂfÂc¬õ¯ù,breakfast,¶¼®Æ,5,0.2,0,1.1
+157,royal milk tea,¬Ó®a¥¤¯ù,breakfast,¶¼®Æ,137,6.8,7.6,10.1
+158,oolong tea,¯QÀs¯ù,breakfast,¶¼®Æ,0,0,0,0.2
+159,black tea,¬õ¯ù,breakfast,¶¼®Æ,2,0.2,0,0.2
+160,hot cocoa,¼ö¥i¥i,breakfast,¶¼®Æ,129,5,5.8,15.9
+161,konbu tea,©ø¥¬¯ù,breakfast,¶¼®Æ,2,0.1,0,0.8
+162,jasmine tea,­[²úªá¯ù,breakfast,¶¼®Æ,0,0,0,0.2
+163,black tea with ginger,Á¤¬õ¯ù,breakfast,¶¼®Æ,2,0.2,0,0.3
+164,chai,©Ô¯ù,breakfast,¶¼®Æ,67,3.4,3.5,5.4
+165,espresso,¸q¦¡©@°Ø,breakfast,¶¼®Æ,1,0.1,0,0.2
+166,cappuccino,¥d¥¬©_¿Õ,breakfast,¶¼®Æ,43,2,1.9,4.2
+167,genmai tea,¥È¦Ì¯ù,breakfast,¶¼®Æ,0,0,0,0
+168,soy milk latte,¨§¼ß®³ÅK,breakfast,¶¼®Æ,97,4.9,5.4,7.4
+169,barley tea,³Á¯ù,breakfast,¶¼®Æ,2,0,0,0.5
+170,puerh tea,´¶¬|¯ù,breakfast,¶¼®Æ,3,0.3,0,0.3
+171,matcha,©Ù¯ù,breakfast,¶¼®Æ,6,0.6,0.1,0.8
+172,black tea latte,¬õ¯ù®³ÅK,breakfast,¶¼®Æ,61,3.1,3.4,4.4
+173,matcha latte,©Ù¯ù®³ÅK,breakfast,¶¼®Æ,134,7.1,7.1,10.2
+174,cocoa milk,¥i¥i¨È¤û¥¤,breakfast,¶¼®Æ,148,7.8,9,12.9
+175,pomelo tea,¬c¤l¯ù,breakfast,¶¼®Æ,40,0.1,0,12.8
+176,rooibos,°êÄ_¯ù,breakfast,¶¼®Æ,0,0,0,0.1
+177,moca,¼¯¥d,breakfast,¶¼®Æ,193,6.4,10.8,17.3
+178,orange juice,¬h¾í¥Ä,breakfast,¶¼®Æ,84,1.6,0,22
+179,grapefruit juice,¸²µå¬c¥Ä,breakfast,¶¼®Æ,80,1.2,0.2,20.6
+180,apple juice,Ä«ªG¥Ä,breakfast,¶¼®Æ,88,0.4,0.2,23.6
+181,banana smoothie,­»¿¼ªG©õ,breakfast,¶¼®Æ,134,5.2,5,18.2
+182,grape juice,¸²µå¥Ä,breakfast,¶¼®Æ,108,0.6,0.4,28.6
+183,strawberry juice,¯ó²ù¥Ä,breakfast,¶¼®Æ,45,0.9,0.1,11.5
+184,strawberry smoothie,¯ó²ùªG©õ,breakfast,¶¼®Æ,103,3.6,3.2,16.4
+185,strawberry milk,¯ó²ù¤û¥¤,breakfast,¶¼®Æ,152,5,5.7,19.9
+186,plum juice,±ö¤l¥Ä,breakfast,¶¼®Æ,98,0,0,24.6
+187,kiwi juice,©_²§ªG¥Ä,breakfast,¶¼®Æ,123,1.2,0.1,32.5
+188,guava juice,ªÝ¼Ö¥Ä,breakfast,¶¼®Æ,102,0.2,0.2,24.6
+189,honey lemon juice,¸Á»eÂfÂc¥Ä,breakfast,¶¼®Æ,53,0.2,0.1,14.1
+190,blueberry juice,ÂÅ²ù¥Ä,breakfast,¶¼®Æ,62,0.1,0,16.3
+191,cola,¥i¼Ö,breakfast,¶¼®Æ,230,0.5,0,57
+192,soda,¨T¤ô,breakfast,¶¼®Æ,205,0,0,51
+193,watermelon juice,¦è¥Ê¥Ä,breakfast,¶¼®Æ,79,1.3,0.2,20.4
+194,sport drink,¹B°Ê¶¼®Æ,breakfast,¶¼®Æ,105,0,0,25.5
+195,pineapple juice,»ñ±ù¥Ä,breakfast,¶¼®Æ,100,0,0,24.8
+196,mango juice,¨~ªG¥Ä,breakfast,¶¼®Æ,138,1,0.2,36.8
+197,melon soda,«¢±K¥Ê¨T¤ô,breakfast,¶¼®Æ,102,0,0,25.6
+198,tomato juice,µf­X¥Ä,breakfast,¶¼®Æ,34,1.4,0.2,8
+199,carrot juice,­JÅÚ½³¥Ä,breakfast,¶¼®Æ,42,0.9,0.2,10.1
+200,black sesame latte,¶ÂªÛ³Â®³ÅK,breakfast,¶¼®Æ,175,6.9,10.3,14.7
+201,bean bun,¨§¨F¥],other,²¢ÂI,224,4.9,4.6,40.9
+202,pork okonomiyaki,½Þ¦×¤j¨Á¿N,"lunch, dinner",¥D­¹,551,19.8,30.3,45.7
+203,baguette,ªk°êÄÑ¥],breakfast,¥D­¹,84,2.8,0.4,17.3
+204,cream bun,¥¤ªoÀ\¥],breakfast,¥D­¹,95,3,2.7,14.6
+205,chocolate croissant,¥©§J¤O¥i¹|,breakfast,¥D­¹,308,5,18.5,30.3
+206,ham and cheese croissant,¤õ»L°_¥q¥i¹|,breakfast,¥D­¹,156,6,6.1,18.3
+207,brown sugar bun,¶Â¿}À\¥],breakfast,¥D­¹,170,5,3.8,27.8
+208,multi-grain bread,ÂøÂ³ÄÑ¥],breakfast,¥D­¹,115,3.4,1.8,20.4
+209,blueberry bagel,ÂÅ²ù¨©ªG,breakfast,¥D­¹,212,6.3,0.8,43.4
+210,bagel,­ì¨ý¨©ªG,breakfast,¥D­¹,195,6,0.8,39
+211,french toast,ªk°ê¦R¥q,breakfast,¥D­¹,394,12.1,19.5,41.4
+212,raisin bun,¸²µå°®À\¥],breakfast,¥D­¹,141,3.6,2.4,25.8
+213,ham and cheese hot pressed toast,¤õ»L°_¥q¼öÀ£¦R¥q,breakfast,¥D­¹,336,13.9,17.9,29.1
+214,strawberry sandwich,¯ó²ù¤T©úªv,breakfast,¥D­¹,334,6.6,19.9,33.2
+215,fried shrimp sandwich,½¼±Æ¤T©úªv,breakfast,¥D­¹,254,10.5,8.8,32.6
+216,egg sandwich,Âû³J¤T©úªv,breakfast,¥D­¹,269,7.7,18.2,17.8
+217,fried pork sandwich,½Þ±Æ¤T©úªv,breakfast,¥D­¹,335,14.5,19.5,25.6
+218,ham and egg sandwich,¤õ»L³J¤T©úªv,breakfast,¥D­¹,235,7.7,14.6,18.2
+219,teriyaki chicken hamburger,·Ó¿NÂûº~³ù,breakfast,¥D­¹,451,19,25.8,33.7
+220,ham and cheese panini,¤õ»L°_¥q©¬¥§¥§,breakfast,¥D­¹,328,16.7,14.7,31.6
+221,cuban sandwich,¥j¤Ú¤T©úªv,breakfast,¥D­¹,485,20.2,27.9,36.5
+222,ham and cheese bagel,¤õ»L°_¥q¨©ªG,breakfast,¥D­¹,244,11.3,6.6,34.1
+223,shrimp avocado croissant,¹T±ù½¼¤¯¥i¹|,breakfast,¥D­¹,407,14.2,30.4,21.2
+224,tuna and cheese croissant,ÂD³½°_¥q¥i¹|,breakfast,¥D­¹,366,12.7,26.6,22.2
+225,tuna croissant,ÂC³½¬ü¤D´þ¥i¹|,breakfast,¥D­¹,380,10.2,30.4,16.3
+226,ham and egg croissant,¤õ»L³J¥i¹|,breakfast,¥D­¹,357,10.2,27.4,16.6
+227,ham and cheese croissant,¤õ»L°_¥q¥i¹|,breakfast,¥D­¹,316,10.1,23.2,16.5
+228,bacon and egg hamburger,°ö®Ú³Jº~³ù,breakfast,¥D­¹,396,17.5,18.4,39.3
+229,bacon and lettuce hamburger,°ö®Ú¥Íµæº~³ù,breakfast,¥D­¹,328,12,13.6,39.4
+230,fried fish hamburger,³½±Æº~³ù,breakfast,¥D­¹,376,11.9,17.7,41.9
+231,tuna sandwich,ÂC³½¤T©úªv,breakfast,¥D­¹,296,9.4,20.7,18.1
+232,fried chicked sandwich,Âû±Æ¤T©úªv,breakfast,¥D­¹,356,14.3,19.2,29.6
+233,smoked chicken sandwich,ÂtÂû¤T©úªv,breakfast,¥D­¹,264,10.3,16,18.7
+234,custard bread,¥d¤h¹FÄÑ¥],breakfast,¥D­¹,275,9.3,9.8,37.3
+235,pineapple bun,µÔÅÚÄÑ¥],breakfast,¥D­¹,366,8,10.5,59.9
+236,scone,¥q±d,other,²¢ÂI,137,2.3,5.9,17.7
+237,almond nut banana muffin,§ö¤¯°íªG­»¿¼°¨ªâ,other,²¢ÂI,250,4.2,14.9,24.6
+238,chocolate scone,¥©§J¤O¥q±d,other,²¢ÂI,275,4,14.6,32.1
+239,banana scone,­»¿¼°¨ªâ,other,²¢ÂI,217,3.2,10.2,27.5
+240,blueberry scone,ÂÅ²ù¥q±d,other,²¢ÂI,141,2.4,5.9,18.6
+241,pumpkin muffin,«n¥Ê°¨ªâ,other,²¢ÂI,223,3.4,9.8,29.5
+242,blueberry muffin,ÂÅ²ù°¨ªâ,other,²¢ÂI,216,3.2,9.8,28
+243,maple syrup scone,·¬¿}¥q±d,other,²¢ÂI,150,2.3,5.9,21
+244,clam soup,µð¸Ä´ö,"lunch, dinner",´ö,9,1.1,0.1,1
+245,gnocchi,ÄÑª¸½D,"lunch, dinner",¥D­¹,276,8.9,4.7,46.8
+246,bamboo shoot soup,¦Ëµ«´ö,"lunch, dinner",´ö,136,10.3,7.6,6.4
+247,egg drop soup,³Jªá´ö,"lunch, dinner",´ö,48,3.1,1.9,3.8
+248,seaweed soup,®ü±a´ö,"lunch, dinner",´ö,14,1.6,0.6,1.1
+249,winter melon soup,¥V¥Ê´ö,"lunch, dinner",´ö,40,1.3,3,2.3
+250,onion soup,¬v½µ¿@´ö,"lunch, dinner",´ö,239,7.5,9.2,31.2
+251,chicken rice cake soup,Âû¦×¦~¿|´ö,"lunch, dinner",´ö,520,18.8,24.3,5.9
+252,tomato and egg soup,µf­X³J´ö,"lunch, dinner",´ö,70,4.2,3.5,4.8
+253,meatball soup,¤Y¤l´ö,"lunch, dinner",´ö,167,11.2,6.8,13.5
+254,pumpkin soup,«n¥Ê¿@´ö,"lunch, dinner",´ö,147,5,4.3,22.4
+255,korean steamed egg,Áú¦¡»]³J,"lunch, dinner",°tµæ,46,4.8,2.4,0.9
+256,kimchi soup,ªwµæ´ö,"lunch, dinner",´ö,90,7.1,2.6,9.2
+257,chowder,¥©¹F¿@´ö,"lunch, dinner",´ö,178,7.4,7.3,20.7
+258,ginseng chicken soup,¤H°ÑÂû´ö,"lunch, dinner",´ö,248,22.1,10.1,14.7
+259,pork and tofu soup,½Þ¦×¨§»G´ö,"lunch, dinner",´ö,172,16.1,7.1,10.6
+260,salty soy milk,ÄÐ¨§¼ß,breakfast,¶¼®Æ,176,11.3,10.5,7.7
+261,potato soup,°¨¹aÁ¦¿@´ö,"lunch, dinner",´ö,200,5.5,8.8,25.1
+262,wonton soup,À_¶»´ö,"lunch, dinner",´ö,104,4.9,5.6,8.4
+263,seaweed egg soup,®ü±aÂû³J´ö,"lunch, dinner",´ö,68,5.1,3.5,2.9
+264,radish soup,ÅÚ½³´ö,"lunch, dinner",´ö,46,1.3,2.1,4.5
+265,shrimp dumpling soup,½¼¤¯´ö»å,"lunch, dinner",¥D­¹,169,5.8,7.8,16.8
+266,bah-kut-te,¦×°©¯ù,"lunch, dinner",´ö,553,20.1,46.4,8.4
+267,vegetable meatball soup,«Cµæ°^¤Y´ö,"lunch, dinner",´ö,192,15.1,10.4,8
+268,stewed beef,¿L¤û¦×,"lunch, dinner",¥D­¹,477,18,35.4,14.8
+269,vegetable chicken soup,½­µæÂû´ö,"lunch, dinner",¥D­¹,244,14.1,12.2,19.7
+270,creamy chicken stew,¿L¥¤ªoÂû¦×,"lunch, dinner",¥D­¹,351,14.3,21.6,21.5
+271,curry udon,©@­ù¯QÀsÄÑ,"lunch, dinner",¥D­¹,429,14.4,8.5,67
+272,beancurd udon,¨§¥Ö¯QÀsÄÑ,"lunch, dinner",¥D­¹,471,18.1,11.4,67.7
+273,fried shrimp udon,¬µ½¼¯QÀsÄÑ,"lunch, dinner",¥D­¹,366,12,1.1,68.7
+274,nabeyaki udon,Áç¿N¯QÀsÄÑ,"lunch, dinner",¥D­¹,508,25.6,12.5,69
+275,soba noodle,ëL³ÁÄÑ,"lunch, dinner",¥D­¹,314,12.2,2,59.5
+276,vermicelli,°®ÄÑ½u,"lunch, dinner",¥D­¹,378,11.3,1.1,76.7
+277,sliced noodle,¤M«dÄÑ,"lunch, dinner",¥D­¹,671,26.3,22.5,83.6
+278,wonton noodle,À_¶»ÄÑ,"lunch, dinner",¥D­¹,557,18.4,11.4,89.7
+279,thai fried noodle,®õ¦¡ª£ÄÑ,"lunch, dinner",¥D­¹,711,28.8,34,68.1
+280,fried rice vermicelli,ª£¦Ì¯»,"lunch, dinner",¥D­¹,486,16.5,17.4,62.2
+281,chicken salad,Âû¦×¨F©Ô,"lunch, dinner",°tµæ,78,12.7,1.1,4.5
+282,tomato and mushroom pasta,¿»­X³¥Û£¸q¤j§QÄÑ,"lunch, dinner",¥D­¹,559,15,16.4,83.6
+283,tomato seafood pasta,­X¥Ä®üÂA¸q¤j§QÄÑ,"lunch, dinner",¥D­¹,566,23.9,12.9,82.9
+284,spinach and poached egg pasta,µÔµæ·Å¬u³J¸q¤j§QÄÑ,"lunch, dinner",¥D­¹,620,27.3,15,90.2
+285,creamy mentaiko pasta,¥¤ªo©ú¤Ó¤l¸q¤j§QÄÑ,"lunch, dinner",¥D­¹,572,22.8,17.5,75.8
+286,fried bean sprout,ª£¨§ªÞµæ,"lunch, dinner",°tµæ,107,4.5,8,6.4
+287,fried bacon and asparagus,ª£°ö®ÚÄªµ«,"lunch, dinner",°tµæ,86,2.3,7.5,2.9
+288,fried cabbage,ª£°ªÄRµæ,"lunch, dinner",°tµæ,59,1.2,4.2,5
+289,fried cuttlefish and celery,ªáªKª£ªàµæ,"lunch, dinner",°tµæ,67,5.3,3.3,3.2
+290,fried pork and vegetable,½Þ¦×ª£«Cµæ,"lunch, dinner",°tµæ,227,6.5,17.9,8.4
+291,stir-fried pea green,ª£¨§­],"lunch, dinner",°tµæ,37,2.7,2.3,2.8
+292,stir-fried pea green with egg,ª£¨§­]Âû³J,"lunch, dinner",°tµæ,174,9.5,11.9,4.9
+293,stir-fried tomato with egg,µf­Xª£³J,"lunch, dinner",°tµæ,255,4.6,21.2,10.9
+294,fried chicken breast and vegetable,ª£Âû¯Ý¦×©M«Cµæ,"lunch, dinner",°tµæ,191,14.7,10.7,7.5
+295,chicken cabbage roll,Âû¦×°ªÄRµæ±²,"lunch, dinner",°tµæ,223,17.5,11.1,13.2
+296,stir-fried cabbage and ham,°ªÄRµæª£¤õ»L,"lunch, dinner",°tµæ,76,4.6,5,3.8
+297,stir-fried cabbage and sakura shrimp,°ªÄRµæª£Äåªá½¼,"lunch, dinner",°tµæ,60,6.2,0.6,9.2
+298,chinese cabbage soup,¥Õµæ´ö,"lunch, dinner",´ö,24,1,0.2,4.1
+299,tuna and broccoli salad,ÂC³½ªá·¦µæ¨F©Ô,"lunch, dinner",°tµæ,50,8.6,0.5,4.2
+300,steamed pumpkin,»]«n¥Ê,"lunch, dinner",°tµæ,82,1.7,0.3,18.5
+301,korean japchae,Áú¦¡©ÕÂøµæ,"lunch, dinner",°tµæ,375,16.6,21.5,27.5
+302,grilled corn,¯N¥É¦Ì,"lunch, dinner",°tµæ,214,6.5,7.1,32.9
+303,avocado and prosciutto salad,¹T±ù¥Í¤õ»L¨F©Ô,"lunch, dinner",°tµæ,167,6,14.6,4.2
+304,fried lotus root slice,¬µ½¬ÃÂ¤ù,"lunch, dinner",°tµæ,49,0.8,2.5,6.2
+305,korean vegetable bibimbap,Áú¦¡½­µæ©Õ¶º,"lunch, dinner",¥D­¹,264,7.9,6.4,43.6
+306,deepfried eggplant,¬µ­X¤l,"lunch, dinner",°tµæ,97,0.7,9.1,3.2
+307,deepfried squid,¬µªáªK,"lunch, dinner",°tµæ,136,2.2,8.3,12.6
+308,deepfried string bean,¬µ¥|©u¨§,"lunch, dinner",°tµæ,49,0.6,3.6,3.7
+309,fried potato,¬µÁ¦±ø,"lunch, dinner",°tµæ,113,1.8,4.1,17.2
+310,hash brown,Á¦»æ,"lunch, dinner",°tµæ,136,3.3,6.7,15.4
+311,deepfried oyster,¬µ¨dÄ÷,"lunch, dinner",°tµæ,438,7.7,27.9,37.6
+312,deepfried taro,¬µ¨¡ÀY,"lunch, dinner",°tµæ,250,4.1,17.3,18.4
+313,croquette,¥i¼Ö»æ,"lunch, dinner",°tµæ,179,6,11.8,11.1
+314,deepfried pumpkin,¬µ«n¥Ê,"lunch, dinner",°tµæ,55,0.6,3.1,6.1
+315,deepfried burdock,¬µ¤ûã®,"lunch, dinner",°tµæ,51,6,3,5.3
+316,baked creamy potato,¯N¥¤ªo°¨¹aÁ¦,"lunch, dinner",°tµæ,136,1.8,6.8,17
+317,baked king oyster mushroom,¯N§öÀjÛ£,"lunch, dinner",°tµæ,36,5.2,0.8,12.3
+318,stewed pumpkin,¿LµN«n¥Ê,"lunch, dinner",°tµæ,292,10.9,7.3,41.3
+319,stuffed bitter melon,­W¥ÊÆ^¦×,"lunch, dinner",°tµæ,269,16,16.3,13.1
+320,stuffed green pepper,«C´ÔÆ^¦×,"lunch, dinner",°tµæ,298,16.7,20.9,9
+321,fried zucchini,·Î¸`¥Ê,"lunch, dinner",°tµæ,22,0.3,2,0.7
+322,stewed chicken with winter melow,¥V¥Ê¿LÂû¦×,"lunch, dinner",°tµæ,135,9.2,7.2,7.1
+323,stewed chicken with potato,°¨¹aÁ¦¿L¦×,"lunch, dinner",°tµæ,292,10.9,7.3,41.3
+324,spinach salad with sesame sauce,ªÛ³ÂÂæ²D©ÕµÔµæ,"lunch, dinner",°tµæ,47,2.5,1.9,6
+325,blanch okra,¿S¬î¸ª,"lunch, dinner",°tµæ,23,0.9,0,4.2
+326,salad,¥Íµæ¨F©Ô,"lunch, dinner",°tµæ,17,1.1,0.1,3.8
+327,caesar salad,³ÍÂÄ¨F©Ô,"lunch, dinner",°tµæ,137,4.5,9.9,7.5
+328,blanch edamame,¤ôµN¤ò¨§,"lunch, dinner",°tµæ,34,2.9,1.5,2.2
+329,blanch asparagus,¿SÄªµ«,"lunch, dinner",°tµæ,18,2,0.1,3.5
+330,steamed potato,»]°¨¹aÁ¦,"lunch, dinner",°tµæ,76,1.8,0.3,17
+331,boiled corn,¤ôµN¥É¦Ì,"lunch, dinner",°tµæ,173,6.1,3,32.6
+332,fried eight treasure pickles,ª£¤KÄ_µæ,"lunch, dinner",°tµæ,296,22.5,14.6,15.6
+333,dry fried shrimp,°®¿N½¼¤¯,"lunch, dinner",°tµæ,263,21.4,12.4,11.3
+334,steamed clams with rice wine,°s»]µð¸Ä,"lunch, dinner",°tµæ,41,4.9,0.2,1.2
+335,vinegarish octopus,¾L©Õ³¹³½,"lunch, dinner",°tµæ,99,14.1,0.5,8.4
+336,fried beef with vegetable,¤û¦×ª£«Cµæ,"lunch, dinner",°tµæ,266,15.9,18,5.8
+337,braised beef tendon,º±¤ûµ¬,"lunch, dinner",°tµæ,207,24.6,4,17.2
+338,fried beef with mushroom,¤û¦×ª£³¥Û£,"lunch, dinner",°tµæ,295,16.8,16.7,18
+339,roasted ox-tongue,¯N¤û¦Þ,"lunch, dinner",°tµæ,325,12.2,28.6,1.2
+340,fried pork with vegetable,½Þ¦×ª£«Cµæ,"lunch, dinner",°tµæ,227,6.5,17.9,8.4
+341,ginger pork,Á¤¥Ä¿N¦×,"lunch, dinner",°tµæ,321,18.4,22.3,5.3
+342,tonkatsu,¬µ½Þ±Æ,"lunch, dinner",°tµæ,450,22,35.9,9.8
+343,fried pork with onion,½Þ¦×ª£¬v½µ,"lunch, dinner",°tµæ,244,17.3,12.8,12.6
+344,stir fry green pepper with pork,«C´Ô¦×µ·,"lunch, dinner",°tµæ,274,18.8,16.5,12.2
+345,teriyaki chicken,·Ó¿NÂû,"lunch, dinner",°tµæ,234,14.2,15.7,5.2
+346,chicken nugget,Âû¶ô,"lunch, dinner",°tµæ,217,15.6,13.8,4.4
+347,nanban chicken,«nÆZÂû,"lunch, dinner",°tµæ,285,15.2,16.4,15
+348,sweet and sour chicken,¿}¾LÂû,"lunch, dinner",°tµæ,313,21,18.3,11.8
+349,smoked chicken,·ÏÂtÂû¦×,"lunch, dinner",°tµæ,170,11.8,12.2,1.2
+350,fried chicken wing,¬µÂû¯Í,"lunch, dinner",°tµæ,191,12.9,11.5,6.7
+351,stewed tomato chicken,¿L­X¥ÄÂû¦×,"lunch, dinner",°tµæ,331,16.4,22.9,14.3
+352,fried cartilage,¬µ³n°©,"lunch, dinner",°tµæ,54,6.6,1.2,3.5
+353,shaomai,¿N½æ,"lunch, dinner",¥D­¹,43,2.4,2.1,3.2
+354,american hot dog,¬ü¦¡¼öª¯,"lunch, dinner",°tµæ,336,8.8,16.7,36.1
+355,curry croquette,©@­ù¥i¼Ö»æ,"lunch, dinner",°tµæ,176,2.1,12.2,14
+356,fried pork and garlic sprout,½Þ¦×ª£»[­],"lunch, dinner",°tµæ,268,13.2,16.4,14.8
+357,fried pork with kimchi,ªwµæª£½Þ¦×,"lunch, dinner",°tµæ,296,10.7,22.9,9.4
+358,fried pork with chives,­´µæª£½Þ¦×,"lunch, dinner",°tµæ,198,10.5,15.2,4.8
+359,dong po rou,ªF©Y¦×,"lunch, dinner",°tµæ,529,14.5,45.2,9.1
+360,smoked tenderloin,·ÏÂt¨½¦Ù¦×,"lunch, dinner",°tµæ,56,11.4,0.4,1
+361,teriyaki tenderloin,·Ó¿N¨½¦Ù¦×,"lunch, dinner",°tµæ,70,7.7,0.3,5
+362,bacon wrapped asparagus,Äªµ«¨÷°ö®Ú,"lunch, dinner",°tµæ,156,4.7,14.8,1.4
+363,fried bacon and green pepper,«C´Ôª£°ö®Ú,"lunch, dinner",°tµæ,156,3.9,14.6,2.9
+364,almond,§ö¤¯,other,²¢ÂI,92,3.2,8.4,2.7
+365,walnut,®Ö®ç,other,²¢ÂI,54,1.2,5.5,0.9
+366,pistachio,¶}¤ßªG,other,²¢ÂI,101,2.9,9.3,3.4
+367,ginkgo nut,»È§ö,other,²¢ÂI,3,0.1,0,0.5
+368,broad bean,Åú¨§,other,²¢ÂI,94,4.9,4.2,9.3
+369,cotton candy,´Öªá¿},other,²¢ÂI,59,0.4,0,14.3
+370,chocolate cookie,¥©§J¤O»æ°®,other,²¢ÂI,49,0.7,2.4,6
+371,strawberry tart,¯ó²ù¶ð,other,²¢ÂI,389,5.5,24.5,36.3
+372,macaron,°¨¥dÀs,other,²¢ÂI,59,0.6,3.1,7.2
+373,chocolate cake,¥©§J¤O³J¿|,other,²¢ÂI,329,5.3,20.9,29.1
+374,cheese cake,°_¥q³J¿|,other,²¢ÂI,276,6.7,21.3,13.4
+375,apple pie,Ä«ªG¬£,other,²¢ÂI,333,5.3,19,36.6
+376,egg tart,³J¶ð,other,²¢ÂI,139,2.4,8.4,12.6
+377,banana cake,­»¿¼³J¿|,other,²¢ÂI,167,2.9,7.5,22
+378,pound cale,½S³J¿|,other,²¢ÂI,354,4.6,20.3,38.3
+379,black tea chiffon cake,¬õ¯ù±­­·³J¿|,other,²¢ÂI,267,4.7,8.1,17.9
+380,brown sugar donut,¶Â¿}²¢²¢°é,other,²¢ÂI,244,3.3,13.6,25.6
+381,matcha cake,©Ù¯ù³J¿|,other,²¢ÂI,237,4,12.2,27.1
+382,madeleine,º¿¼w½¬³J¿|,other,²¢ÂI,170,2.5,9.7,17.6
+383,tiramisu,´£©Ô¦ÌÄ¬,other,²¢ÂI,336,7.7,19.8,31.3
+384,lemon tart,ÂfÂc¶ð,other,²¢ÂI,411,6.6,23.9,41.6
+385,mont blanc,»X¥¬®Ô,other,²¢ÂI,124,2.2,7.1,12.2
+386,mont blanc pudding,»X¥¬®Ô¥¬¤B,other,²¢ÂI,192,3.8,9.7,22.3
+387,lemon cake,ÂfÂc³J¿|,other,²¢ÂI,208,2.2,10.4,26.3
+388,custard pudding,¥d¤h¹F¥¬¤B,other,²¢ÂI,126,5.5,5,14.7
+389,almond and milk jelly,§ö¤¯¨§»G,other,²¢ÂI,189,4,4.7,33.5
+390,fruits jelly,¤ôªGªG­á,other,²¢ÂI,71,1.7,0.1,15.8
+391,pumpkin pudding,«n¥Ê¥¬¤B,other,²¢ÂI,132,3.8,7.4,12.1
+392,matcha pudding,©Ù¯ù¥¬¤B,other,²¢ÂI,396,9.3,26.7,29.6
+393,black sesame pudding,¶ÂªÛ³Â¥¬¤B,other,²¢ÂI,121,3.5,4.5,16.7
+394,coffee jelly,©@°Ø­á,other,²¢ÂI,57,1.3,2.2,7.9

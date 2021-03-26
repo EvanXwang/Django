@@ -1,0 +1,21 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "thumbnailImageUrl": "https://i.pinimg.com/originals/9b/27/f4/9b27f40ed0f0ad3d0810e4d77c1be061.jpg",
+    "imageSize": "cover",
+    "title": "甜不辣",
+    "text": "甜不辣的成分有魚漿、澱粉，再經油炸定型，所以淺藏油脂不少，吃一份就相當於3/4碗飯+半碗肉+10cc油",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "確認新增",
+        "text": "記錄中...",
+        "data": "tianbula"
+      }
+    ]
+  }
+}
+  ]

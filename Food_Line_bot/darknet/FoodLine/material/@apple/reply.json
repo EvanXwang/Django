@@ -1,0 +1,30 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "thumbnailImageUrl": "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/7/2/3/4/2074327-1-eng-GB/Can-an-apple-a-day-keep-the-doctor-and-statins-away.jpg",
+    "imageAspectRatio": "rectangle",
+    "title": "辨識食物如下：",
+    "text": "蘋果",
+    "actions": [
+      {
+        "type": "message",
+        "label": "資料正確",
+        "text": "#Yes"
+      },
+      {
+        "type": "message",
+        "label": "取消",
+        "text": "#No"
+      },
+      {
+        "type": "message",
+        "label": "手動新增",
+        "text": "#手動新增"
+      }
+    ]
+  }
+}
+]

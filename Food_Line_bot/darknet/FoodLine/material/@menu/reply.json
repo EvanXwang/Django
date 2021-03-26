@@ -1,0 +1,26 @@
+
+[
+ {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "thumbnailImageUrl": "https://i.pinimg.com/564x/a7/aa/42/a7aa424ed1e8987bfba80cde1e6703f2.jpg",
+    "imageAspectRatio": "square",
+    "title": "餐點推薦",
+    "text": "請依個人需求選擇",
+    "actions": [
+      {
+        "type": "message",
+        "label": "隨機推薦",
+        "text": "#隨機推薦"
+      },
+      {
+        "type": "message",
+        "label": "個人化推薦",
+        "text": "#個人化推薦"
+      }
+    ]
+  }
+}
+  ]

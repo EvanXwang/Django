@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <meta charset="UTF-8">
+
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>請填寫基本資料</title>
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet"');
+
+:root {
+  --color-white: #114B0B;
+  --color-darkblue: #6984b8;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.3);
+  --color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image:     url(https://i.imgur.com/TJCtJj0.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 3.125rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 3.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 2rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #3d001f;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #002a3d;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+
+
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+  <script>
+
+function initializeApp(data) {
+    //顯示UserId
+}
+
+$(document).ready(function () {
+    liff.init(function (data) {  //初始化LIFF
+        initializeApp(data);
+        liff.getProfile()
+        .then(function (profile) {
+            $("#userid").val(profile.userId);
+            $("#name").val(profile.displayName);
+            $("#url").val(profile.pictureUrl);
+        })
+        .catch((err) => {
+        console.log('error', err);
+        });
+    });
+});
+
+
+</script>
+    <script >
+function CloseForm(){
+        var newWindow = window.close();
+    }
+</script>
+
+</head>
+
+<body translate="no" >
+
+  <div class="container">
+  <header class="header">
+
+  </header>
+  <form action="" method="post" name="profile"  id="survey-form">
+       {% csrf_token %}
+
+      <div class="form-group">
+      <input
+        type="hidden"
+        name="uid"
+        id="userid"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="name-label" for="name">名稱</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="age-label" for="age">身高</label>
+
+      <input
+        type="number"
+        name="height"
+        id="height"
+        min="50"
+        max="250"
+        class="form-control"
+        placeholder="cm"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="age-label" for="age">體重</label>
+
+      <input
+        type="number"
+        name="weight"
+        id="weight"
+        min="1"
+        max="200"
+        class="form-control"
+        placeholder="kg"
+        required
+      />
+    </div>
+       <div class="form-group">
+      <label id="age-label" for="age">年齡</label>
+
+      <input
+        type="number"
+        name="age"
+        id="age"
+        min="1"
+        max="200"
+        class="form-control"
+        placeholder="請輸入目前年齡"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <p>性別</p>
+      <select id="dropdown" name="sex" class="form-control" required>
+        <option disabled selected value>請選擇性別</option>
+        <option value="male">男性</option>
+        <option value="female">女性</option>
+
+      </select>
+    </div>
+
+      <div class="form-group">
+      <p>日常活動指數</p>
+      <select id="dropdown" name="ac" class="form-control" required>
+        <option disabled selected value>請選擇指數</option>
+        <option value="1.2">低活動量(久坐辦公室、無運動、臥床)</option>
+        <option value="1.375">輕度活動(走動性工作、非高強度運動一週1~3天)</option>
+        <option value="1.55">中度活動(輕度勞力工作，非高強度運動一週3~5天)</option>
+        <option value="1.725">高度活動(重度勞力工作，非高強度運動一週6~7天)</option>
+        <option value="1.9">極端活動 (艱困的訓練/重度勞力工作，一天訓練2次以上)</option>
+      </select>
+    </div>
+
+     <div class="form-group">
+      <p>飲食目標</p>
+      <select id="dropdown" name="sc" class="form-control" required>
+        <option disabled selected value>請選擇目標</option>
+        <option value="1">一般</option>
+        <option value="1.2">增肌</option>
+        <option value="0.8">減脂</option>
+      </select>
+    </div>
+
+
+
+
+  <P>
+
+    <input type="submit" value="送出資料" onclick="CloseForm()"/>
+
+        </P>
+      <footer>
+        <p><small>健康飲食管家 &#169;Copyright 2021</small></p>
+    </footer>
+  </form>
+
+</div>
+
+
+
+
+
+</body>
+
+</html>
+

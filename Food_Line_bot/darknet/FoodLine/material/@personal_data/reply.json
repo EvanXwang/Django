@@ -1,0 +1,37 @@
+
+[
+ {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "thumbnailImageUrl": "https://i.pinimg.com/564x/5c/ec/9f/5cec9fc5067af05b82da976af7507207.jpg",
+    "imageAspectRatio": "square",
+    "imageBackgroundColor": "#FFFFFF",
+    "title": "個人資訊",
+    "text": "請選擇",
+    "actions": [
+      {
+        "type": "message",
+        "label": "查詢個人資訊",
+        "text": "#查詢個人資訊"
+      },
+      {
+        "type": "uri",
+        "label": "更改個人資訊",
+        "uri": "https://liff.line.me/1655708569-ZGkWpwob"
+      },
+      {
+        "type": "message",
+        "label": "每日所需營養素",
+        "text": "#每日所需營養素"
+      },
+      {
+        "type": "uri",
+        "label": "當月飲食紀錄報告",
+        "uri": "https://liff.line.me/1655708569-pWn2LP0y"
+      }
+    ]
+  }
+}
+  ]

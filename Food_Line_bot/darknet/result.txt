@@ -1,0 +1,9 @@
+ GPU isn't used 
+mini_batch = 1, batch = 24, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 2791 K-images (43 Kilo-batches_64) 
+./scan1.jpg: Predicted in 7701.796000 milli-seconds.
+blanched green vegetables: 64%	(left_x:   58   top_y:  173   width:  263   height:  242)

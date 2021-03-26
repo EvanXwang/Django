@@ -1,0 +1,37 @@
+
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "thumbnailImageUrl": "https://i.imgur.com/tXIaDgV.png",
+    "imageAspectRatio": "rectangle",
+    "imageSize": "cover",
+    "title": "功能說明",
+    "text": "請點選您想了解的功能",
+    "actions": [
+      {
+        "type": "message",
+        "label": "關於個人資料與每日營養值",
+        "text": "#關於個人資料..."
+      },
+      {
+        "type": "message",
+        "label": "如何記錄一天吃了什麼？",
+        "text": "#如何記錄..."
+      },
+      {
+        "type": "message",
+        "label": "請推薦適合我的餐點",
+        "text": "#請推薦..."
+      },
+      {
+        "type": "message",
+        "label": "我想了解更多健康資訊",
+        "text": "#我想了解..."
+      }
+    ]
+  }
+}
+  ]
