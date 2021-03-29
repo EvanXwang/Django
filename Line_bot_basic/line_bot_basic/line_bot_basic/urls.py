@@ -14,8 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+
+from django.urls import path, include  #Django 2.0 專案預設建立的檔案架構
+from django.conf.urls import url  #Django 1.X 的語法
+from line_app.views import callback
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url('^callback', callback),
 ]

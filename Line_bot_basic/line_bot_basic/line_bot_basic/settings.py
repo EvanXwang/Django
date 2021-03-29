@@ -22,10 +22,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'otxefig)t74shgl(lpg8z=@0+d!)o3z_-izqb816o(w^ltgjfj'
 
+# 需輸入自己的Linebot
+LINE_CHANNEL_ACCESS_TOKEN = ''
+LINE_CHANNEL_SECRET = ''
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'line_app',# 自己的應用程式
 ]
 
 MIDDLEWARE = [
